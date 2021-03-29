@@ -1,0 +1,43 @@
+// module 'Mod Banner'
+.mod-banner {
+  .container {
+    max-width: 1822px;
+  }
+}
+.banner-slide {
+  padding: 0;
+  .bg-banner {
+    @include background-size(cover);
+  }
+  z-index: 1;
+}
+
+
+@include media-breakpoint-down(lg) {
+  .banner-slide {
+    padding: 0;
+    h1 {
+      font-size: rem(48);
+      line-height: 1.08;
+    }
+    .bg-banner {
+      @include background-size(cover);
+      padding-bottom: 69%;
+    }
+    z-index: 1;
+    img {
+      bottom: -30px;
+      position: absolute;
+      max-width: 226px;
+      height: 171px;
+    }
+  }
+  .banner-content {
+    .btn {
+      margin: 0 33px;
+      min-width: 276px;
+      padding: 14px 0;
+      border: 3px solid $reb-bc;
+    }
+  }
+}

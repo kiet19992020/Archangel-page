@@ -1,0 +1,116 @@
+// *:focus,
+// button:focus,
+// input:focus,
+// *,
+// input,
+// button,
+// *:active,
+// input:active,
+// button:active,
+// option {
+//   outline: none !important;
+//   outline: 0 !important;
+// }
+
+html {
+  margin: 0 auto;
+  background-color: $black;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  a {
+    @extend %link-inhert;
+    font-style: normal;
+    font-weight: inherit;
+    text-decoration: none;
+
+    // &:hover,
+    // &:focus {
+    //   text-decoration: none !important;
+    // }
+  }
+}
+
+ol,
+ul {
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+  // margin-left: 15px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.bold,
+b,
+strong {
+  font-weight: 700;
+}
+
+a {
+  transition: .25s all;
+  &:hover {
+    transition: .25s all;
+  }
+}
+
+h1,
+.h1 {
+  line-height: 1.3;
+}
+h2,
+.h2 {
+  line-height: 1.14;
+}
+h3,
+.h3 {
+  line-height: 1.33;
+}
+h4,
+.h4 {
+  line-height: 1.4;
+}
+
+h5,
+.h5 {
+  line-height: 1.33;
+}
+
+.bd-p2 {
+  font-weight: 400;
+}
+.bd-p3 {
+  font-size: rem(22);
+}
+@include media-breakpoint-down(lg) {
+  p {
+    font-size: rem(16);
+  }
+}
+@include media-breakpoint-up(xl) {
+  p {
+    font-size: rem(22);
+  }
+}

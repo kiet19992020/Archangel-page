@@ -1,0 +1,24 @@
+// module 'Mod Products'
+.mod-products {
+  img {
+    max-width: 495px;
+    margin: 20px 0;
+    width: 100%;
+  }
+  h2 {
+    font-size: rem(52);
+  }
+  p {
+    max-width: 881px;
+    margin: 30px auto;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .mod-products {
+    .btn {
+      min-width: 331px;
+      padding: 18px 0;
+
+    }
+  }
+}

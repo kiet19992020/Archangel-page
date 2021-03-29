@@ -1,0 +1,43 @@
+// module 'Mod Proactive'
+.mod-proactive {
+  position: relative;
+  &::before {
+    content: '';
+    @include position(absolute,0,0,0,0,2);
+    width: 100%;
+    background-color: #b47e2a;
+    opacity: .23;
+  }
+  h2 {
+    font-size: rem(42px);
+    max-width: 538px;
+  }
+  .proactive-img {
+    max-width: 1013px;
+    min-height: 781px;
+    .bg-image-proactive {
+      @include position(absolute,0,0,0,0,5);
+    }
+  }
+}
+.proactive-main {
+  padding: 20px 0;
+}
+@include media-breakpoint-down(lg) {
+  .proactive-content {
+    padding: 50px 20px;
+    height: 901px;
+    width: 100%;
+    img {
+      position: relative;
+      @include sizeEx(38px,79px);
+    }
+    .button {
+      margin: 0 auto;
+    }
+  }
+  .bg-image-mb  {
+    padding-bottom: 91%;
+    z-index: 5;
+  }
+}

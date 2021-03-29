@@ -1,0 +1,51 @@
+// module 'Mod Content About'
+.mod-content-about {
+  img {
+    width: 100%;
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: rem(42);
+    max-width: 455px;
+  }
+}
+.ab-slide-img {
+  width: 100%;
+}
+.ab-slide-info {
+  padding: 91px 50px;
+}
+.about-menu {
+  a {
+    text-decoration: none;
+    font-size: rem(20);
+    font-weight: 600;
+    color: $black;
+  }
+  li {
+    list-style: none;
+    &:hover {
+      padding: 0 0 13px;
+      border-bottom: 5px solid $brown-b4;
+    }
+  }
+  ul {
+    justify-content: space-between;
+    display: flex;
+    margin-left: -35px;
+  }
+  hr {
+    height: 1px;
+    margin-top: -25px;
+    background-color: $brown-b4;
+  }
+
+}
+@include media-breakpoint-down(lg) {
+  .mod-content-about {
+    img {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}

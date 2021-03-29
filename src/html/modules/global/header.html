@@ -1,0 +1,44 @@
+<header id="header" class="module header" data-module="header">
+  <a
+    class="skip-link text-center d-block w-100 bg-black text-white"
+    href="javascript:;"
+    ><span>Skip to content</span></a
+  >
+  <nav class="container navbar navbar-expand-lg">
+    <div
+      class="header-mobile row align-items-center justify-content-between flex-wrap"
+    >
+      <div class="col-9 col-lg-12">
+        <a
+          id="header-logo"
+          class="navbar-brand header-logo w-100"
+          title="{{ title }}"
+          href="index.html"
+        >
+          <img
+            src="//cdn.agilitycms.com/9th-wonder/Attachments/9thwonder%20assets/logo-R-home.svg"
+            alt="{{ title }}"
+          />
+        </a>
+      </div>
+      <div class="col-3 text-right d-lg-none">
+        <button
+          class="border-0 hamburger-menu"
+          type="button"
+          data-toggle="collapse"
+          data-target="#main-menu"
+          aria-controls="main-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icomoon icon-close"></span>
+          <span class="sr-only">Open Menu</span>
+        </button>
+      </div>
+    </div>
+    {% include "modules/global/menu.html" %}
+  </nav>
+</header>

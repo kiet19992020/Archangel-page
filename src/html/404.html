@@ -1,0 +1,20 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-internal"{% endblock %}
+{% block content %}
+<main id="main-content" class="main-content">
+  <div class="space-100"></div>
+  <section id="mod-404" class="module mod-404 9w-content-not-found">
+    <div class="container">
+      <div class="d-table w-100 h-100">
+        <div class="d-table-cell align-middle text-center last-mb-none">
+          <h1>Page not found</h1>
+          <h4>The content you are looking for is not found. Please make sure you navigate our site with the menu we
+            provided. Click the link below to get to our homepage.</h4>
+          <p><a href="/" title="Back to home" class="btn btn-primary">Back to home</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="space-50"></div>
+</main>
+{% endblock %}

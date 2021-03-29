@@ -1,0 +1,24 @@
+@include media-breakpoint-up(lg) {
+  .banner-slide {
+    z-index: 1;
+    img {
+      position: absolute;
+      bottom: -76px;
+      // margin-left: -3%;
+      height: 332px;
+    }
+    .bg-banner {
+      min-height: 759px;
+      min-width: 50vw;
+      width: 100%;
+    }
+  }
+}
+@include media-breakpoint-up(xl) {
+  .banner-slide {
+    img {
+      left: -25%;
+
+    }
+  }
+}

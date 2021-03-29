@@ -1,0 +1,17 @@
+@include media-breakpoint-up(lg) {
+  .proactive-img {
+    .bg-image-proactive {
+      width: 50vw;
+      height: 100%;
+    }
+  }
+  .proactive-content {
+    height: 784px;
+    width: 100%;
+    img {
+      position: relative;
+      @include sizeEx(57px,118px);
+    }
+
+  }
+}

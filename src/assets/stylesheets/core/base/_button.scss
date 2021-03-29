@@ -1,0 +1,97 @@
+.btn {
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  color: $body-color;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: $btn-border-width solid transparent;
+  min-width: 199px;
+  padding: 10px;
+  @include button-size(null, null, rem(14), $btn-line-height, $btn-border-radius);
+}
+
+.btn-danger {
+  color: $white;
+  background-color: $blue;
+  border-color: $blue;
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $black;
+    border-color: $black;
+  }
+}
+
+.btn-danger-dna {
+  color: $white;
+  background-color: $blue;
+  border-color: $blue;
+  min-width: 256px;
+  .icomoon {
+    position: absolute;
+    // transform: rotate(90deg) translateY(-11px) translateX(-4px);
+    transform: translateY(-4px) translateX(4px);
+    font-size: 30px;
+  }
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $black;
+    border-color: $black;
+  }
+}
+
+.btn-outline-danger {
+  color: $blue;
+  border-color: $blue;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+  }
+}
+.btn-arrow-danger {
+  color: $reb-bc ;
+  font-size: rem(16);
+  .icon-arrow-thin-right {
+    margin-left: 5px;
+    display: inline-block;
+    transform: translateY(3px);
+  }
+  &:hover,
+  &:focus {
+    color: $black;
+  }
+}
+
+.btn-arrow-info {
+  color: $white ;
+  font-size: rem(16);
+  .icon-arrow-thin-right {
+    margin-left: 5px;
+    display: inline-block;
+    transform: translateY(3px);
+  }
+  &:hover,
+  &:focus {
+    color: $black;
+  }
+}
+.btn-block {
+  display: block;
+  width: 100%;
+
+  // Vertically space out multiple block buttons
+  +.btn-block {
+    margin-top: $btn-block-spacing-y;
+  }
+}
+
+.text-center {
+  .btn {
+    margin: 0 5px 10px;
+  }
+}
