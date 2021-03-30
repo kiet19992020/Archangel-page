@@ -7,8 +7,11 @@
   }
 
   >li {
-    font-size: 1.3em;
-
+    font-size: rem(18);
+    font-weight: 600;
+    &:hover {
+      border-top: 1px solid $reb-bc;
+    }
     // text-transform: uppercase;
     >a {
       padding: 15px 0;
@@ -29,7 +32,7 @@
 
     &:hover,
     &.active {
-      color: $link-color;
+      color: $white;
     }
   }
 }
@@ -49,22 +52,18 @@
   }
 
   ul {
+    padding: 20px 0;
+    background-color: $reb-bc;
     li {
-      color: $gray-900;
+      @include font(null,rem(14),$white,500);
     }
 
     a {
-      padding: 10px 15px;
+      padding: 15px;
+      background-color: $reb-bc;
     }
   }
 
-  li {
-    // text-transform: none;
-    font-size: .85em;
-    // li {
-    //   text-transform: none;
-    // }
-  }
 
   .menu-child {
     display: none;

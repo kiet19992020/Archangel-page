@@ -2,7 +2,7 @@
   <div class="container footer-top">
     <img  data-src="../assets/images/Archangel-Logo-white.svg" alt="" class="lazy logo-top img-svg" />
     <div class="row">
-      <div class="col-lg-3 col-md-2">
+      <div class="col-lg-2 col-md-2 col-6 ">
       <div class="footer-item-col">
         <h5>
           <a href="#">Products & Services</a>
@@ -23,7 +23,8 @@
         </ul>
       </div>
       </div>
-      <div class="col-lg-2 col-md-2">
+
+      <div class="col-lg-2 col-md-2 ">
         <div class="footer-item-col">
           <h5>
             <a href="#">Industries</a>
@@ -44,7 +45,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-1 col-md-2">
+      <div class="col-lg-2 col-md-2">
       <div class="footer-item-col">
         <h5>
           <a href="#">Innovation</a>
@@ -71,27 +72,34 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6">
         <div class="footer-item-col ">
           <h5>
             <a href="#">Contact </a>
           </h5>
-          <address class="" >
+          <address>
             <a href="mailto:mailname@gmail.com">mailname@gmail.com</a>
             <br />
             US Office
             <a href="tel:+12819944600">+352 269 763 07</a>
           </address>
+          <div class="logo-footer-us mt-2 d-lg-none d-block">
+            <div class="social">
+              <p>Follow us</p>
+              {% include "modules/global/social.html" %}
+            </div>
+          </div>
         </div>
       </div>
       <div class="logo-footer-us">
-        <img class="d-md-block d-none" src="../assets/images/Archangel-Icon-White.svg" alt="Frontend starter">
-        <p>Follow us</p>
-        <div class="social">
+        <img class="d-lg-block d-none" src="../assets/images/Archangel-Icon-White.svg" alt="Frontend starter">
+        <div class="social d-lg-block d-none">
+          <p>Follow us</p>
           {% include "modules/global/social.html" %}
         </div>
       </div>
     </div>
+
 
   </div>
   <div class="container text-center last-mb-none">

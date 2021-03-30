@@ -27,12 +27,10 @@
   color: $white;
   background-color: $blue;
   border-color: $blue;
-  min-width: 256px;
+  min-width: 326px;
   .icomoon {
     position: absolute;
-    // transform: rotate(90deg) translateY(-11px) translateX(-4px);
-    transform: translateY(-4px) translateX(4px);
-    font-size: 30px;
+    transform: translateY(6px) translateX(12px) scale(2) rotate(90deg);
   }
   &:hover,
   &:focus {

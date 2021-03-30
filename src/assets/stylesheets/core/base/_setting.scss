@@ -22,7 +22,7 @@ $col-xl: 1366px;
 $media-sm: 100%;
 $media-md: 720px;
 $media-lg: 960px;
-$media-xl: 1140px;
+$media-xl: 1372px;
 $media-xxl: 1200px;
 
 /* class bootstrap helper (d-md-none d-lg-none) */
@@ -47,7 +47,7 @@ $grid-breakpoints: map-merge(
 
 /* class gird (col-md-6, container max-width) */
 
-$container-max-widths: (sm: null, md: $media-md, lg: $media-lg);
+$container-max-widths: (sm: null, md: $media-md, lg: $media-lg, xl: $media-xl);
 
 
 $grid-columns: 12 !default;

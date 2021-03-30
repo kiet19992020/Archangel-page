@@ -137,12 +137,11 @@
 }
 
 .card {
-  margin: 0 13px;
   z-index: 1;
-  .img-card {
-    max-width: 389px;
-    min-height: 460px;
-    // width: 100%;
+  width: 100%;
+  &::after {
+    display: block;
+    content: '';
   }
   .content-card {
     padding: 14px 20px;
@@ -156,18 +155,9 @@
       height: 1px;
       margin-left: 0;
     }
-    .icon-card {
-      height: 112px;
-      margin-right: -85px;
-      left: auto;
-    }
   }
-  // &:hover {
-  //   bottom: 20px;
-  //   opacity: .5;
-  //   max-width: 289px;
-  //   min-height: 289px;
-  //   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -1%, $black);
-
-  // }
+  .icon-card {
+    left: auto;
+    top: auto;
+  }
 }

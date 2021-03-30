@@ -1,4 +1,10 @@
 // module 'Mod Content Proetect'
 .mod-content-proetect {
+  .img-card {
+    padding-bottom: 85%;
+  }
+}
+
+@include media-breakpoint-down(lg) {
 
 }

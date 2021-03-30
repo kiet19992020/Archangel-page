@@ -6,10 +6,18 @@
   &.pin-header {
     box-shadow: 2px 9px 18px -6px rgba(0, 0, 0, .22);
   }
+  p {
+    margin-bottom: 0;
+  }
+  .btn {
+    font-size: rem(24);
+  }
+
 }
 
 .header-logo {
   max-width: 200px;
+  padding: 15px;
 }
 
 @include media-breakpoint-down(lg) {

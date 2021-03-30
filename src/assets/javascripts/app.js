@@ -19,6 +19,7 @@ import 'modules/Menu'
 
 import 'modules/CallModule'
 import 'modules/AnimationScrollPage'
+import 'modules/ModAboutContent'
 // import 'modules/TestClass1'
 
 console.log('App')

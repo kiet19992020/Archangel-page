@@ -1,0 +1,8 @@
+@include media-breakpoint-up(lg) {
+  .img-card {
+    padding-bottom: 116.5%;
+  }
+  .protect-items {
+    width: calc(100vw - 300px);
+  }
+}

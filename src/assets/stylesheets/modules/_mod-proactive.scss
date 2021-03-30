@@ -3,7 +3,7 @@
   position: relative;
   &::before {
     content: '';
-    @include position(absolute,0,0,0,0,2);
+    @include position(absolute,0,0,0,0,null);
     width: 100%;
     background-color: #b47e2a;
     opacity: .23;
@@ -20,9 +20,7 @@
     }
   }
 }
-.proactive-main {
-  padding: 20px 0;
-}
+
 @include media-breakpoint-down(lg) {
   .proactive-content {
     padding: 50px 20px;
@@ -39,5 +37,8 @@
   .bg-image-mb  {
     padding-bottom: 91%;
     z-index: 5;
+  }
+  .proactive-main {
+    padding: 45px 0;
   }
 }

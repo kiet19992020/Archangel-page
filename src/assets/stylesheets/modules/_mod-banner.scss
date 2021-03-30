@@ -6,9 +6,6 @@
 }
 .banner-slide {
   padding: 0;
-  .bg-banner {
-    @include background-size(cover);
-  }
   z-index: 1;
 }
 
@@ -21,10 +18,8 @@
       line-height: 1.08;
     }
     .bg-banner {
-      @include background-size(cover);
       padding-bottom: 69%;
     }
-    z-index: 1;
     img {
       bottom: -30px;
       position: absolute;
@@ -33,6 +28,10 @@
     }
   }
   .banner-content {
+    padding: 100px 30px;
+    p {
+      margin: 10px auto;
+    }
     .btn {
       margin: 0 33px;
       min-width: 276px;
