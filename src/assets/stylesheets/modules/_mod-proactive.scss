@@ -11,6 +11,7 @@
   h2 {
     font-size: rem(42px);
     max-width: 538px;
+    padding: 29px 0 20px;
   }
   .proactive-img {
     max-width: 1013px;
@@ -24,19 +25,24 @@
 @include media-breakpoint-down(lg) {
   .proactive-content {
     padding: 50px 20px;
-    height: 901px;
     width: 100%;
     img {
       position: relative;
       @include sizeEx(38px,79px);
     }
-    .button {
-      margin: 0 auto;
+  }
+  .button {
+    margin: 0 auto;
+    .btn {
+      margin-top: 9px;
+      min-width: 277px;
+      padding: 14px 5px;
     }
   }
   .bg-image-mb  {
     padding-bottom: 91%;
     z-index: 5;
+    margin-bottom: 25px;
   }
   .proactive-main {
     padding: 45px 0;

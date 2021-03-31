@@ -42,6 +42,7 @@
 
 @include media-breakpoint-up(xl) {
   .main-menu-ul>li {
+    padding: 0 35px;
     >a {
       padding: 22px 25px;
     }

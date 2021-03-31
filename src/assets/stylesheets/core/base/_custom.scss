@@ -144,16 +144,20 @@
     content: '';
   }
   .content-card {
-    padding: 14px 20px;
+    padding: 39px 30px;
     top: auto;
     color: $white;
     max-width: 289px;
     font-weight: 600;
+    p {
+      margin-bottom: 0;
+      font-size: 28px;
+    }
     hr {
       background: $reb-bf;
-      width: 97px;
+      width: 88px;
       height: 1px;
-      margin-left: 0;
+      margin: 0;
     }
   }
   .icon-card {

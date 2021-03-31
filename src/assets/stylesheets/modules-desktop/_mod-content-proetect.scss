@@ -5,4 +5,10 @@
   .protect-items {
     width: calc(100vw - 300px);
   }
+  .about-main {
+    display: none;
+    &.is-show {
+      display: block;
+    }
+  }
 }

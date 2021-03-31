@@ -9,26 +9,27 @@
   z-index: 1;
 }
 
-
 @include media-breakpoint-down(lg) {
   .banner-slide {
     padding: 0;
+
+    .bg-banner {
+      padding-bottom: 77%;
+    }
+    img {
+      bottom: -27px;
+      position: absolute;
+      /* max-width: 185px; */
+      height: 162px;
+      left: 10px;
+    }
+  }
+  .banner-content {
     h1 {
       font-size: rem(48);
       line-height: 1.08;
     }
-    .bg-banner {
-      padding-bottom: 69%;
-    }
-    img {
-      bottom: -30px;
-      position: absolute;
-      max-width: 226px;
-      height: 171px;
-    }
-  }
-  .banner-content {
-    padding: 100px 30px;
+    padding: 65px 30px;
     p {
       margin: 10px auto;
     }
@@ -36,7 +37,12 @@
       margin: 0 33px;
       min-width: 276px;
       padding: 14px 0;
-      border: 3px solid $reb-bc;
+    }
+  }
+  .header-logo {
+    margin-left: -12px;
+    img {
+      max-width: 62%;
     }
   }
 }

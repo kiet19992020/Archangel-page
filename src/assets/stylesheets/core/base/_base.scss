@@ -82,11 +82,11 @@ h1,
 }
 h2,
 .h2 {
-  line-height: 1.14;
+  line-height: 1.12;
 }
 h3,
 .h3 {
-  line-height: 1.33;
+  line-height: 1.42;
 }
 h4,
 .h4 {
@@ -106,7 +106,8 @@ h5,
 }
 @include media-breakpoint-down(lg) {
   p {
-    font-size: rem(16);
+    font-size: rem(20);
+    line-height: 1.6;
   }
 }
 @include media-breakpoint-up(xl) {

@@ -1,6 +1,7 @@
 @include media-breakpoint-up(lg) {
   .header {
     .navbar {
+      max-width: 1822px;
       padding: 0 15px;
     }
   }

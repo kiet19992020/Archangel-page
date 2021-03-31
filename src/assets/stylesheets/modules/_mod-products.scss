@@ -11,6 +11,7 @@
   p {
     max-width: 881px;
     margin: 30px auto;
+    line-height: 1.45;
   }
 }
 @include media-breakpoint-down(lg) {
@@ -19,6 +20,13 @@
       min-width: 331px;
       padding: 18px 0;
 
+    }
+    h2 {
+      font-size: rem(42);
+      padding: 0 10px;
+    }
+    a {
+      font-size: rem(20);
     }
   }
 }

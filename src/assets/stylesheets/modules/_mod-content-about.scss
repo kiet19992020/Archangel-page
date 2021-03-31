@@ -17,11 +17,15 @@
 .about-menu {
   a {
     text-decoration: none;
+
+  }
+  h2 {
+    max-width: 95%;
+  }
+  li {
     font-size: rem(20);
     font-weight: 600;
     color: $black;
-  }
-  li {
     list-style: none;
     &:hover {
       padding: 0 0 13px;
@@ -40,11 +44,43 @@
   }
 
 }
+.about-main {
+  > p {
+    font-size: rem(18);
+    font-weight: 600;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 2px solid $brown-b4;
+  }
+}
 @include media-breakpoint-down(lg) {
   .mod-content-about {
     img {
       width: 100%;
       margin-left: 0;
     }
+    .ab-slide-info {
+      padding: 15px;
+    }
+    .btn {
+      min-width: 279px;
+      padding: 12px 5px;
+      margin: -3px 0 0 20px;
+    }
   }
+
+  // .about-menu-mb {
+  //   .items-ab-menu > p {
+  //     font-size: rem(18);
+  //     font-weight: 600;
+  //     list-style: none;
+  //     padding: 15px 0;
+  //     border-bottom: 1px solid $brown-b4;
+  //   }
+  //   .icomoon {
+  //     color: green;
+  //     // transform: rotate(20deg);
+  //   }
+  // }
+
 }
