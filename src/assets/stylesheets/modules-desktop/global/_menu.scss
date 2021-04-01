@@ -1,9 +1,10 @@
 @include media-breakpoint-up(lg) {
   .main-menu-ul {
-    padding: 0;
+    padding: 26px 44px 18px 0;
 
     >li {
       font-size: 1em;
+      padding: 0;
 
       >a {
         padding: 18px 15px;
@@ -42,9 +43,9 @@
 
 @include media-breakpoint-up(xl) {
   .main-menu-ul>li {
-    padding: 0 35px;
+    padding: 0 19px 0 63px;
     >a {
-      padding: 22px 25px;
+      padding: 22px 28px;
     }
   }
 }

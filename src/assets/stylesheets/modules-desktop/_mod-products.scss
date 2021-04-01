@@ -1,0 +1,16 @@
+@include media-breakpoint-up(lg) {
+  .product-content {
+    h2 {
+      font-weight: bold;
+      line-height: 1.73;
+    }
+    .btn {
+      min-width: 371px;
+      padding: 24px 5px;
+      border-radius: 50px;
+    }
+  }
+  .text-center .btn {
+    margin: 22px 20px 29px;
+  }
+}

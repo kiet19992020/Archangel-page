@@ -12,7 +12,6 @@
     &:hover {
       border-top: 1px solid $reb-bc;
     }
-    // text-transform: uppercase;
     >a {
       padding: 15px 0;
     }
@@ -47,9 +46,6 @@
     padding: 0;
   }
 
-  .nav-item-arrows {
-    top: -5px;
-  }
 
   ul {
     padding: 20px 0;
@@ -62,11 +58,6 @@
       padding: 15px;
       background-color: $reb-bc;
     }
-  }
-
-
-  .menu-child {
-    display: none;
   }
 
   .open-menu-child {

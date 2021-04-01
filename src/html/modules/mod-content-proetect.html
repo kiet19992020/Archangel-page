@@ -2,52 +2,24 @@
 <section class="module mod-content-proetect">
       <div class="container">
         <div class="prtect-title">
-          <h2 class="d-md-block d-none">We’re about more than just good chemistry.</h2>
-          <h3 class="d-md-none d-block">Protect your people and your product with safer, more effective antimicrobial solutions.</h3>
+          <!-- <h2 class="d-md-block d-none">We’re about more than just good chemistry.</h2> -->
+          <h3 class="d-md-none d-lg-block">Protect your people and your product with safer, more effective antimicrobial solutions.</h3>
 
         </div>
-        <div class="protect-items row">
-          <div class="col-lg-3 col-md-6 col-sm-6 my-md-3 my-2">
-            <div class="card ps-rv">
-              <div class="bg img-card  lazy ps-rv bg-bottom-center " data-src="/assets/images/Archangel-Biofuel.jpg"></div>
-              <img class="icon-card ps-as" src="../assets/images/Aquaculture-Icon3.png" alt="">
-              <div class="content-card ps-as">
-                <p>Biofuels</p>
-                <hr>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 my-md-3 my-2">
-            <div class="card ps-rv">
-              <img class="icon-card ps-as" src="../assets/images/Aquaculture-Icon3.png" alt="">
-              <div class="bg img-card  lazy ps-rv bg-bottom-center " data-src="/assets/images/Archangel-Biofuel.jpg"></div>
-              <div class="content-card ps-as">
-                <p>Biofuels</p>
-                <hr>
 
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 my-md-3 my-2">
+        <div class="protect-items row">
+          {% for protect in protects %}
+          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
             <div class="card ps-rv">
-              <img class="icon-card ps-as" src="../assets/images/Aquaculture-Icon3.png" alt="">
-              <div class="bg img-card  lazy ps-rv bg-bottom-center " data-src="/assets/images/Archangel-Biofuel.jpg"></div>
+              <div class="bg img-card  lazy ps-rv bg-bottom-center " data-src="{{ protect.img}}"></div>
+              <img class="icon-card ps-as" src="{{ protect.icon }}" alt="">
               <div class="content-card ps-as">
-                <p>Biofuels</p>
+                <p>{{ protect.title }}</p>
                 <hr>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 my-md-3 my-2">
-            <div class="card ps-rv">
-              <img class="icon-card ps-as" src="../assets/images/Aquaculture-Icon3.png" alt="">
-              <div class="bg img-card  lazy ps-rv bg-bottom-center " data-src="/assets/images/Archangel-Biofuel.jpg"></div>
-              <div class="content-card ps-as">
-                <p>Biofuels</p>
-                <hr>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 </section>

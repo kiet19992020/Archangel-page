@@ -1,0 +1,11 @@
+@include media-breakpoint-up(xl) {
+  .about-menu {
+    h2 {
+      width: 35%;
+      margin-bottom: 55px;
+    }
+    li {
+      padding-right: 148px;
+    }
+  }
+}

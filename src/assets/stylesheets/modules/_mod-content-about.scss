@@ -1,5 +1,8 @@
 // module 'Mod Content About'
 .mod-content-about {
+  h5 {
+    font-weight: 300;
+  }
   img {
     width: 100%;
   }
@@ -7,17 +10,27 @@
     font-size: rem(42);
     max-width: 455px;
   }
+  .btn {
+    min-width: 279px;
+    padding: 12px 5px;
+    margin: 37px 0;
+  }
+}
+.about-slide {
+  margin-top: 25px;
 }
 .ab-slide-img {
   width: 100%;
 }
 .ab-slide-info {
   padding: 91px 50px;
+  h3 {
+    font-size: rem(28);
+  }
 }
 .about-menu {
   a {
     text-decoration: none;
-
   }
   h2 {
     max-width: 95%;
@@ -27,13 +40,13 @@
     font-weight: 600;
     color: $black;
     list-style: none;
+    padding-right: 3vw;
     &:hover {
-      padding: 0 0 13px;
+      padding-bottom: 13px;
       border-bottom: 5px solid $brown-b4;
     }
   }
   ul {
-    justify-content: space-between;
     display: flex;
     margin-left: -35px;
   }
@@ -42,11 +55,9 @@
     margin-top: -25px;
     background-color: $brown-b4;
   }
-
 }
 .about-main {
   > p {
-    font-size: rem(18);
     font-weight: 600;
     list-style: none;
     padding: 15px 0;
@@ -61,26 +72,12 @@
     }
     .ab-slide-info {
       padding: 15px;
+      h3 {
+        font-size: rem(22);
+      }
     }
     .btn {
-      min-width: 279px;
-      padding: 12px 5px;
       margin: -3px 0 0 20px;
     }
   }
-
-  // .about-menu-mb {
-  //   .items-ab-menu > p {
-  //     font-size: rem(18);
-  //     font-weight: 600;
-  //     list-style: none;
-  //     padding: 15px 0;
-  //     border-bottom: 1px solid $brown-b4;
-  //   }
-  //   .icomoon {
-  //     color: green;
-  //     // transform: rotate(20deg);
-  //   }
-  // }
-
 }

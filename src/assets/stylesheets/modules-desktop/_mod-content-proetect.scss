@@ -1,8 +1,16 @@
 @include media-breakpoint-up(lg) {
-  .img-card {
-    padding-bottom: 116.5%;
+  .mod-content-proetect {
+    .img-card {
+      padding-bottom: 116.5%;
+    }
+    h3{
+      font-size: 42px;
+      line-height: 1.14;
+      max-width: 851px;
+    }
   }
   .protect-items {
+    margin: 63px 0;
     width: calc(100vw - 300px);
   }
   .about-main {

@@ -1,7 +1,11 @@
 // module 'Mod Banner'
 .mod-banner {
   .container {
-    max-width: 1822px;
+    max-width: 1857px;
+  }
+  .btn {
+    min-width: 276px;
+    padding: 14px 0;
   }
 }
 .banner-slide {
@@ -19,7 +23,6 @@
     img {
       bottom: -27px;
       position: absolute;
-      /* max-width: 185px; */
       height: 162px;
       left: 10px;
     }
@@ -28,21 +31,23 @@
     h1 {
       font-size: rem(48);
       line-height: 1.08;
+      margin-bottom: 0;
     }
-    padding: 65px 30px;
+    padding: 65px 30px 35px;
     p {
       margin: 10px auto;
     }
-    .btn {
-      margin: 0 33px;
-      min-width: 276px;
-      padding: 14px 0;
-    }
+
+  }
+  .header-mobile {
+    padding: 6px 0 7px 15px;
   }
   .header-logo {
+
     margin-left: -12px;
     img {
-      max-width: 62%;
+      max-width: 42%;
+      width: 100%;
     }
   }
 }

@@ -10,8 +10,15 @@
     width: 100%;
     img {
       position: relative;
-      @include sizeEx(57px,118px);
+      @include sizeEx(53px,118px);
     }
-
+  }
+  .proactive-main {
+    p {
+      max-width: 500px;
+    }
+    .btn {
+      margin-top: 32px;
+    }
   }
 }

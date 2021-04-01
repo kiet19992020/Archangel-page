@@ -6,8 +6,8 @@
   vertical-align: middle;
   user-select: none;
   border: $btn-border-width solid transparent;
-  min-width: 199px;
-  padding: 10px;
+  min-width: 276px;
+  padding: 13px;
   font-size: rem(18);
   @include button-size(null, null, rem(18), $btn-line-height, $btn-border-radius);
 }

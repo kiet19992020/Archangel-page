@@ -3,8 +3,7 @@
     img {
       position: absolute;
       bottom: -76px;
-      // margin-left: -3%;
-      height: 332px;
+      height: 369px;
     }
     .bg-banner {
       min-height: 759px;
@@ -12,11 +11,27 @@
       width: 100%;
     }
   }
+  .banner-content {
+    h1 {
+      font-size: rem(72);
+      margin-top: 68px;
+    }
+    p {
+      max-width: 784px;
+      margin-bottom: 50px;
+    }
+  }
+  .banner-main {
+    padding: 92px 0;
+  }
 }
 @include media-breakpoint-up(xl) {
   .banner-slide {
+    h1 {
+      font-size: rem(72);
+    }
     img {
-      left: -25%;
+      left: -26%;
 
     }
   }

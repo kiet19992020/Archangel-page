@@ -46,5 +46,9 @@
   }
   .proactive-main {
     padding: 45px 0;
+    p:not(.btn) {
+      font-size: rem(20);
+      line-height: 1.6;
+    }
   }
 }

@@ -12,4 +12,12 @@
   .protect-items {
     padding: 0 4px;
   }
+  .about-main {
+    &.is-show {
+      display: block;
+    }
+    .about-slide {
+      display: none;
+    }
+  }
 }

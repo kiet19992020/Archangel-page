@@ -10,6 +10,7 @@
     }
   }
   .logo-top {
+    width: 356px;
     margin-left: -25px;
     margin-bottom: 40px;
   }
@@ -25,10 +26,10 @@
     line-height: (20/14);
     margin-bottom: 20px;
   }
-
 }
 .footer-copyright {
   @extend %parent-link-inhert;
+  font-size: rem(16);
 }
 .logo-footer-us {
   margin: -50px auto 0;
@@ -42,7 +43,6 @@
       @include sizeEx(37px);
       border-radius: 50%;
     }
-
     a {
       padding: 9px;
     }
@@ -51,5 +51,22 @@
 @include media-breakpoint-down(lg) {
   .footer-top {
     padding: 0 5px 0 53px;
+  }
+  .footer {
+    .logo-top {
+      width: 280px;
+      margin-left: -25px;
+      margin-bottom: 27px;
+    }
+  }
+  .logo-footer-us {
+    .social {
+      li {
+        @include sizeEx(45px);
+      }
+      a {
+        padding: 13px;
+      }
+    }
   }
 }
