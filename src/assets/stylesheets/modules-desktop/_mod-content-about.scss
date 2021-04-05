@@ -1,3 +1,11 @@
+@include media-breakpoint-up(lg) {
+  .about-main {
+    display: none;
+    &.is-show {
+      display: block;
+    }
+  }
+}
 @include media-breakpoint-up(xl) {
   .about-menu {
     h2 {

@@ -1,16 +1,15 @@
 @include media-breakpoint-up(lg) {
   .proactive-img {
     .bg-image-proactive {
-      width: 50vw;
-      height: 100%;
+      @include sizeEx(50vw,100%);
     }
   }
   .proactive-content {
-    height: 784px;
-    width: 100%;
+    @include sizeEx(100%,784px);
     img {
       position: relative;
       @include sizeEx(53px,118px);
+      margin-top: -62px;
     }
   }
   .proactive-main {

@@ -1,7 +1,26 @@
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(md) {
   .mod-content-proetect {
     .img-card {
-      padding-bottom: 116.5%;
+      padding-bottom: 289px;
+    }
+  }
+  .protect-items {
+    padding: 0 41px;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .protect-items {
+    width: calc(100vw - 154px);
+    padding: 0 5px;
+  }
+
+}
+
+
+@include media-breakpoint-up(xl) {
+  .mod-content-proetect {
+    .img-card {
+      padding-bottom: 460px;
     }
     h3{
       font-size: 42px;
@@ -11,12 +30,7 @@
   }
   .protect-items {
     margin: 63px 0;
-    width: calc(100vw - 300px);
-  }
-  .about-main {
-    display: none;
-    &.is-show {
-      display: block;
-    }
+    padding: 0 10px;
+    width: calc(100vw - 314px);
   }
 }

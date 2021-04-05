@@ -6,6 +6,7 @@
   .btn {
     min-width: 276px;
     padding: 14px 0;
+
   }
 }
 .banner-slide {
@@ -16,7 +17,6 @@
 @include media-breakpoint-down(lg) {
   .banner-slide {
     padding: 0;
-
     .bg-banner {
       padding-bottom: 77%;
     }
